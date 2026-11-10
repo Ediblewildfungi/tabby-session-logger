@@ -1,0 +1,17 @@
+{
+  "name": "tabby-session-logger",
+  "version": "1.1.0",
+  "description": "Configurable UTF-8 session logs for Tabby, without extra dependencies",
+  "main": "dist/index.js",
+  "keywords": ["tabby-plugin"],
+  "author": "tabby-session-logger contributors",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test",
+    "install:local": "node scripts/install.js",
+    "prepack": "npm run build"
+  },
+  "files": ["dist", "docs/ScreenShot.jpg", "README.md", "README.zh-CN.md", "LICENSE"]
+}
